@@ -13,6 +13,15 @@
   <name>rmi-client</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+
+
+  <dependency>
+    <groupId>org.example</groupId>
+    <artifactId>rmi-common</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </dependency>
+
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
