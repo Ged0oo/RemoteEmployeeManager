@@ -1,3 +1,3 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-java -cp "rmi-client/target/rmi-client-1.0-SNAPSHOT.jar:rmi-common/target/rmi-common-1.0-SNAPSHOT.jar" org.example.App
+java -cp "rmi-client/target/classes:rmi-common/target/classes" org.example.App

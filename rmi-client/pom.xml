@@ -12,6 +12,24 @@
   <version>1.0-SNAPSHOT</version>
   <name>rmi-client</name>
   <url>http://maven.apache.org</url>
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>3.5.1</version>
+            <configuration>
+                <mainClass>org.example.App</mainClass>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+
+
+
   <dependencies>
 
 
@@ -20,6 +38,15 @@
     <artifactId>rmi-common</artifactId>
     <version>1.0-SNAPSHOT</version>
   </dependency>
+
+
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.10.2</version>
+    <scope>test</scope>
+</dependency>
+
 
 
     <dependency>
