@@ -7,7 +7,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost", 1099);
+            Registry registry = LocateRegistry.getRegistry("192.168.122.255", 1099);
             EmployeeService service = (EmployeeService) registry.lookup("EmployeeService");
 
             System.out.println("All Employees:");
