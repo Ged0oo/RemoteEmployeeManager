@@ -1,0 +1,53 @@
+# Maven
+/target/
+/**/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# SSL keystores (generated for RMI security)
+*.jks
+*.keystore
+*.truststore
+
+# Config backups or secrets
+*.bak
+*.env
+*.properties.local
+
+# Deployment scripts artifacts
+deploy/*.sh~
+deploy/*.zip
+
+# Database files
+db/*.db
+*.sql~
+
+# Java crash logs
+hs_err_pid*
+
+# Optional cache
+*.class
+*.swp
+*.swo
